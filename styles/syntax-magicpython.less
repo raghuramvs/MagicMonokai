@@ -4,8 +4,23 @@
   &.syntax--name {
     &.syntax--function {
       &.syntax--decorator.syntax--python {
-        color: @sea-green;
+        color: @green;
+        font-style: italic;
       }
+    }
+
+    &.syntax--type {
+      &.syntax--class.syntax--python {
+        color: @green;
+        // font-weight: bold;
+        // text-decoration: underline;
+      }
+    }
+  }
+
+  &.syntax--other {
+    &.syntax--inherited-class.syntax--python {
+      color: @orange;
     }
   }
 }
