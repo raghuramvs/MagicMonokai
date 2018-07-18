@@ -1,10 +1,10 @@
 {
-  "name": "monokai",
+  "name": "magic-monokai",
   "theme": "syntax",
-  "version": "0.24.0",
+  "version": "0.0.0",
   "private": true,
-  "description": "A monokai theme",
-  "repository": "https://github.com/kevinsawicki/monokai",
+  "description": "A monokai theme with support for magicpython",
+  "repository": "https://github.com/vinay-raghuram/MagicMonokai",
   "license": "MIT",
   "engines": {
     "atom": ">=1.13.0"
