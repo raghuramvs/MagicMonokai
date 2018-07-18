@@ -1,0 +1,19 @@
+@import "colors";
+
+.syntax--entity {
+  &.syntax--name {
+    &.syntax--function {
+      &.syntax--decorator.syntax--python {
+        color: @sea-green;
+      }
+    }
+  }
+}
+
+.syntax--meta {
+  &.syntax--function-call {
+    &.syntax--generic.syntax--python {
+      color: @green;
+    }
+  }
+}
